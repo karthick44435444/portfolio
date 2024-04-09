@@ -207,16 +207,16 @@ a {
   border-top-right-radius: 70px;
   border: 2px solid #fff;
   overflow: hidden;
-  height: 100%;
+  height: auto;
 }
 .aboutimage img {
   width: 100%;
-  height: 100%;
-  transition: all 0.5s ease;
+  height: auto;
+  transition: all 0.3s ease;
   cursor: pointer;
 }
 .aboutimage img:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 .aboutcontent {
   padding: 0 70px;
@@ -399,7 +399,6 @@ a.title:hover {
 }
 .website img {
   width: 100%;
-  min-height: 310px;
 }
 .website {
   position: relative;
